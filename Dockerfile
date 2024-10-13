@@ -11,7 +11,7 @@ WORKDIR /app
 RUN https://github.com/VigneshwarRajendran/Testleaf-pos-Project .
 
 # Optionally, specify the branch or commit you want to clone
-CMD cd Testleaf-pos-Project
+CMD cd Testleaf-pos
 RUN git pull
 
 # Install project dependencies in the root directory and api directory
